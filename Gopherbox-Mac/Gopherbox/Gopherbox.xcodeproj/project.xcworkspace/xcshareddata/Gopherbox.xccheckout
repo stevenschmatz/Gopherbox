@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>49341F8C-383D-4AEB-8A1E-E025E594AB85</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Gopherbox</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC44F6F2-95ED-47AD-989C-EF32ED46AF72</key>
+		<string>https://github.com/schmatz/gopherbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Gopherbox-Mac/Gopherbox/Gopherbox.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC44F6F2-95ED-47AD-989C-EF32ED46AF72</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/schmatz/gopherbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC44F6F2-95ED-47AD-989C-EF32ED46AF72</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC44F6F2-95ED-47AD-989C-EF32ED46AF72</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gopherbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

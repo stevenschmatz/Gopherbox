@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2FC4ED19948675006D4032 /* GBPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2FC4EB19948675006D4032 /* GBPreferencesWindowController.m */; };
+		BA2FC4EE19948675006D4032 /* GBPreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2FC4EC19948675006D4032 /* GBPreferencesWindowController.xib */; };
+		BA89894B1998339900089743 /* Client in Resources */ = {isa = PBXBuildFile; fileRef = BA8989491998339900089743 /* Client */; };
+		BA89894C1998339900089743 /* ClientValidation in Resources */ = {isa = PBXBuildFile; fileRef = BA89894A1998339900089743 /* ClientValidation */; };
+		BA9CC9AC198ECBAD0007384C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9CC9AB198ECBAD0007384C /* Cocoa.framework */; };
+		BA9CC9B6198ECBAD0007384C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9CC9B4198ECBAD0007384C /* InfoPlist.strings */; };
+		BA9CC9B8198ECBAD0007384C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC9B7198ECBAD0007384C /* main.m */; };
+		BA9CC9BC198ECBAD0007384C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BA9CC9BA198ECBAD0007384C /* Credits.rtf */; };
+		BA9CC9BF198ECBAD0007384C /* GBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC9BE198ECBAD0007384C /* GBAppDelegate.m */; };
+		BA9CC9C2198ECBAD0007384C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9CC9C0198ECBAD0007384C /* MainMenu.xib */; };
+		BA9CC9C4198ECBAD0007384C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9CC9C3198ECBAD0007384C /* Images.xcassets */; };
+		BA9CC9CB198ECBAD0007384C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9CC9CA198ECBAD0007384C /* XCTest.framework */; };
+		BA9CC9CC198ECBAD0007384C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9CC9AB198ECBAD0007384C /* Cocoa.framework */; };
+		BA9CC9D4198ECBAD0007384C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA9CC9D2198ECBAD0007384C /* InfoPlist.strings */; };
+		BA9CC9D6198ECBAD0007384C /* GopherboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC9D5198ECBAD0007384C /* GopherboxTests.m */; };
+		BA9CC9E7198ECC6C0007384C /* GBLoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC9E5198ECC6C0007384C /* GBLoginWindowController.m */; };
+		BA9CC9E8198ECC6C0007384C /* GBLoginWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9CC9E6198ECC6C0007384C /* GBLoginWindowController.xib */; };
+		BA9CC9EB198ECCB00007384C /* GBCursorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CC9EA198ECCB00007384C /* GBCursorButton.m */; };
+		BAAD6A961995624900E2840F /* GBClientThreadObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD6A951995624900E2840F /* GBClientThreadObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA9CC9CD198ECBAD0007384C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9CC9A0198ECBAD0007384C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9CC9A7198ECBAD0007384C;
+			remoteInfo = Gopherbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2FC4EA19948675006D4032 /* GBPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBPreferencesWindowController.h; path = ../GBPreferencesWindowController.h; sourceTree = "<group>"; };
+		BA2FC4EB19948675006D4032 /* GBPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBPreferencesWindowController.m; path = ../GBPreferencesWindowController.m; sourceTree = "<group>"; };
+		BA2FC4EC19948675006D4032 /* GBPreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GBPreferencesWindowController.xib; path = ../GBPreferencesWindowController.xib; sourceTree = "<group>"; };
+		BA8989491998339900089743 /* Client */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = Client; path = ../../../GBClient/Products/Client; sourceTree = "<group>"; };
+		BA89894A1998339900089743 /* ClientValidation */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = ClientValidation; path = ../../../GBClient/Products/ClientValidation; sourceTree = "<group>"; };
+		BA9CC9A8198ECBAD0007384C /* Gopherbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gopherbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9CC9AB198ECBAD0007384C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BA9CC9AE198ECBAD0007384C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BA9CC9AF198ECBAD0007384C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BA9CC9B0198ECBAD0007384C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA9CC9B3198ECBAD0007384C /* Gopherbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gopherbox-Info.plist"; sourceTree = "<group>"; };
+		BA9CC9B5198ECBAD0007384C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA9CC9B7198ECBAD0007384C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9CC9B9198ECBAD0007384C /* Gopherbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gopherbox-Prefix.pch"; sourceTree = "<group>"; };
+		BA9CC9BB198ECBAD0007384C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BA9CC9BD198ECBAD0007384C /* GBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBAppDelegate.h; sourceTree = "<group>"; };
+		BA9CC9BE198ECBAD0007384C /* GBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBAppDelegate.m; sourceTree = "<group>"; };
+		BA9CC9C1198ECBAD0007384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BA9CC9C3198ECBAD0007384C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA9CC9C9198ECBAD0007384C /* GopherboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GopherboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9CC9CA198ECBAD0007384C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA9CC9D1198ECBAD0007384C /* GopherboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GopherboxTests-Info.plist"; sourceTree = "<group>"; };
+		BA9CC9D3198ECBAD0007384C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA9CC9D5198ECBAD0007384C /* GopherboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GopherboxTests.m; sourceTree = "<group>"; };
+		BA9CC9E4198ECC6C0007384C /* GBLoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBLoginWindowController.h; sourceTree = "<group>"; };
+		BA9CC9E5198ECC6C0007384C /* GBLoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBLoginWindowController.m; sourceTree = "<group>"; };
+		BA9CC9E6198ECC6C0007384C /* GBLoginWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBLoginWindowController.xib; sourceTree = "<group>"; };
+		BA9CC9E9198ECCB00007384C /* GBCursorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBCursorButton.h; sourceTree = "<group>"; };
+		BA9CC9EA198ECCB00007384C /* GBCursorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBCursorButton.m; sourceTree = "<group>"; };
+		BAAD6A941995624900E2840F /* GBClientThreadObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GBClientThreadObject.h; path = ../GBClientThreadObject.h; sourceTree = "<group>"; };
+		BAAD6A951995624900E2840F /* GBClientThreadObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GBClientThreadObject.m; path = ../GBClientThreadObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA9CC9A5198ECBAD0007384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9CC9AC198ECBAD0007384C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9CC9C6198ECBAD0007384C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9CC9CC198ECBAD0007384C /* Cocoa.framework in Frameworks */,
+				BA9CC9CB198ECBAD0007384C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA9CC99F198ECBAD0007384C = {
+			isa = PBXGroup;
+			children = (
+				BA9CC9B1198ECBAD0007384C /* Gopherbox */,
+				BA9CC9CF198ECBAD0007384C /* GopherboxTests */,
+				BA9CC9AA198ECBAD0007384C /* Frameworks */,
+				BA9CC9A9198ECBAD0007384C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9CC9A9198ECBAD0007384C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CC9A8198ECBAD0007384C /* Gopherbox.app */,
+				BA9CC9C9198ECBAD0007384C /* GopherboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9CC9AA198ECBAD0007384C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CC9AB198ECBAD0007384C /* Cocoa.framework */,
+				BA9CC9CA198ECBAD0007384C /* XCTest.framework */,
+				BA9CC9AD198ECBAD0007384C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9CC9AD198ECBAD0007384C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CC9AE198ECBAD0007384C /* AppKit.framework */,
+				BA9CC9AF198ECBAD0007384C /* CoreData.framework */,
+				BA9CC9B0198ECBAD0007384C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BA9CC9B1198ECBAD0007384C /* Gopherbox */ = {
+			isa = PBXGroup;
+			children = (
+				BAAD6A941995624900E2840F /* GBClientThreadObject.h */,
+				BAAD6A951995624900E2840F /* GBClientThreadObject.m */,
+				BA9CC9BD198ECBAD0007384C /* GBAppDelegate.h */,
+				BA9CC9BE198ECBAD0007384C /* GBAppDelegate.m */,
+				BA9CC9C0198ECBAD0007384C /* MainMenu.xib */,
+				BA2FC4EA19948675006D4032 /* GBPreferencesWindowController.h */,
+				BA2FC4EB19948675006D4032 /* GBPreferencesWindowController.m */,
+				BA2FC4EC19948675006D4032 /* GBPreferencesWindowController.xib */,
+				BA9CC9E4198ECC6C0007384C /* GBLoginWindowController.h */,
+				BA9CC9E5198ECC6C0007384C /* GBLoginWindowController.m */,
+				BA9CC9E6198ECC6C0007384C /* GBLoginWindowController.xib */,
+				BA9CC9E9198ECCB00007384C /* GBCursorButton.h */,
+				BA9CC9EA198ECCB00007384C /* GBCursorButton.m */,
+				BA9CC9C3198ECBAD0007384C /* Images.xcassets */,
+				BA9CC9B2198ECBAD0007384C /* Supporting Files */,
+			);
+			path = Gopherbox;
+			sourceTree = "<group>";
+		};
+		BA9CC9B2198ECBAD0007384C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA8989491998339900089743 /* Client */,
+				BA89894A1998339900089743 /* ClientValidation */,
+				BA9CC9B3198ECBAD0007384C /* Gopherbox-Info.plist */,
+				BA9CC9B4198ECBAD0007384C /* InfoPlist.strings */,
+				BA9CC9B7198ECBAD0007384C /* main.m */,
+				BA9CC9B9198ECBAD0007384C /* Gopherbox-Prefix.pch */,
+				BA9CC9BA198ECBAD0007384C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA9CC9CF198ECBAD0007384C /* GopherboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CC9D5198ECBAD0007384C /* GopherboxTests.m */,
+				BA9CC9D0198ECBAD0007384C /* Supporting Files */,
+			);
+			path = GopherboxTests;
+			sourceTree = "<group>";
+		};
+		BA9CC9D0198ECBAD0007384C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CC9D1198ECBAD0007384C /* GopherboxTests-Info.plist */,
+				BA9CC9D2198ECBAD0007384C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA9CC9A7198ECBAD0007384C /* Gopherbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9CC9D9198ECBAD0007384C /* Build configuration list for PBXNativeTarget "Gopherbox" */;
+			buildPhases = (
+				BA9CC9A4198ECBAD0007384C /* Sources */,
+				BA9CC9A5198ECBAD0007384C /* Frameworks */,
+				BA9CC9A6198ECBAD0007384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gopherbox;
+			productName = Gopherbox;
+			productReference = BA9CC9A8198ECBAD0007384C /* Gopherbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA9CC9C8198ECBAD0007384C /* GopherboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9CC9DC198ECBAD0007384C /* Build configuration list for PBXNativeTarget "GopherboxTests" */;
+			buildPhases = (
+				BA9CC9C5198ECBAD0007384C /* Sources */,
+				BA9CC9C6198ECBAD0007384C /* Frameworks */,
+				BA9CC9C7198ECBAD0007384C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9CC9CE198ECBAD0007384C /* PBXTargetDependency */,
+			);
+			name = GopherboxTests;
+			productName = GopherboxTests;
+			productReference = BA9CC9C9198ECBAD0007384C /* GopherboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9CC9A0198ECBAD0007384C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gopherbox;
+				TargetAttributes = {
+					BA9CC9C8198ECBAD0007384C = {
+						TestTargetID = BA9CC9A7198ECBAD0007384C;
+					};
+				};
+			};
+			buildConfigurationList = BA9CC9A3198ECBAD0007384C /* Build configuration list for PBXProject "Gopherbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA9CC99F198ECBAD0007384C;
+			productRefGroup = BA9CC9A9198ECBAD0007384C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9CC9A7198ECBAD0007384C /* Gopherbox */,
+				BA9CC9C8198ECBAD0007384C /* GopherboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA9CC9A6198ECBAD0007384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9CC9B6198ECBAD0007384C /* InfoPlist.strings in Resources */,
+				BA89894B1998339900089743 /* Client in Resources */,
+				BA89894C1998339900089743 /* ClientValidation in Resources */,
+				BA2FC4EE19948675006D4032 /* GBPreferencesWindowController.xib in Resources */,
+				BA9CC9C4198ECBAD0007384C /* Images.xcassets in Resources */,
+				BA9CC9BC198ECBAD0007384C /* Credits.rtf in Resources */,
+				BA9CC9C2198ECBAD0007384C /* MainMenu.xib in Resources */,
+				BA9CC9E8198ECC6C0007384C /* GBLoginWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9CC9C7198ECBAD0007384C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9CC9D4198ECBAD0007384C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9CC9A4198ECBAD0007384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9CC9E7198ECC6C0007384C /* GBLoginWindowController.m in Sources */,
+				BA9CC9B8198ECBAD0007384C /* main.m in Sources */,
+				BAAD6A961995624900E2840F /* GBClientThreadObject.m in Sources */,
+				BA9CC9EB198ECCB00007384C /* GBCursorButton.m in Sources */,
+				BA2FC4ED19948675006D4032 /* GBPreferencesWindowController.m in Sources */,
+				BA9CC9BF198ECBAD0007384C /* GBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9CC9C5198ECBAD0007384C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9CC9D6198ECBAD0007384C /* GopherboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA9CC9CE198ECBAD0007384C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9CC9A7198ECBAD0007384C /* Gopherbox */;
+			targetProxy = BA9CC9CD198ECBAD0007384C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA9CC9B4198ECBAD0007384C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9CC9B5198ECBAD0007384C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA9CC9BA198ECBAD0007384C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9CC9BB198ECBAD0007384C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BA9CC9C0198ECBAD0007384C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9CC9C1198ECBAD0007384C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BA9CC9D2198ECBAD0007384C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9CC9D3198ECBAD0007384C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA9CC9D7198ECBAD0007384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BA9CC9D8198ECBAD0007384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BA9CC9DA198ECBAD0007384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gopherbox/Gopherbox-Prefix.pch";
+				INFOPLIST_FILE = "Gopherbox/Gopherbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA9CC9DB198ECBAD0007384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gopherbox/Gopherbox-Prefix.pch";
+				INFOPLIST_FILE = "Gopherbox/Gopherbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA9CC9DD198ECBAD0007384C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gopherbox.app/Contents/MacOS/Gopherbox";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gopherbox/Gopherbox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GopherboxTests/GopherboxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA9CC9DE198ECBAD0007384C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Gopherbox.app/Contents/MacOS/Gopherbox";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gopherbox/Gopherbox-Prefix.pch";
+				INFOPLIST_FILE = "GopherboxTests/GopherboxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA9CC9A3198ECBAD0007384C /* Build configuration list for PBXProject "Gopherbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9CC9D7198ECBAD0007384C /* Debug */,
+				BA9CC9D8198ECBAD0007384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9CC9D9198ECBAD0007384C /* Build configuration list for PBXNativeTarget "Gopherbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9CC9DA198ECBAD0007384C /* Debug */,
+				BA9CC9DB198ECBAD0007384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9CC9DC198ECBAD0007384C /* Build configuration list for PBXNativeTarget "GopherboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9CC9DD198ECBAD0007384C /* Debug */,
+				BA9CC9DE198ECBAD0007384C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA9CC9A0198ECBAD0007384C /* Project object */;
+}
