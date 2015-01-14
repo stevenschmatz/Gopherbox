@@ -1,4 +1,8 @@
 [Gopherbox](http://stevenschmatz.github.io/gopherbox-web/)
 =========
 
-A file storage service written in Go.
+A distributed file server with client-side encryption.
+
+All client files are in `/GBClient/`, and all server files are in `/GBServer/`.
+
+If you're interested in contributing, please send a pull request!
